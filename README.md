@@ -759,6 +759,28 @@ $api->tags->delete(1);
 ```
 For more information check [API documentation](https://github.com/superfaktura/docs/blob/master/tags.md#delete-tag).
 
+#### Other
+
+Get user companies data
+
+##### 1. `UserCompaniesData::getAll`
+
+Get information about company in which user is currently logged in.
+
+```php
+$response = $api->user_companies_data->getAll();
+var_dump($response->data);
+```
+
+##### 2. `UserCompaniesData::getAllWithAccess`
+
+Return information about all companies, to which user has access.
+
+```php
+$response = $api->user_companies_data->getAllWithAccess();
+var_dump($response->data);
+```
+
 ### Enumerations
 
 - [MarketUri](./src/MarketUri.php)

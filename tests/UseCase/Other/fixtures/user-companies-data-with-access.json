@@ -1,0 +1,44 @@
+{
+  "data": {
+    "1": {
+      "BankAccount": [
+        {
+          "account": "",
+          "bank_code": "",
+          "bank_name": "FatraBanka",
+          "country_id": "191",
+          "created": "2050-01-01 23:59:59",
+          "currency": null,
+          "default": true,
+          "iban": "SK012345678901234567890000",
+          "id": "1",
+          "modified": "2050-01-01 23:59:59",
+          "show": true,
+          "swift": "SUZUKI",
+          "user_id": "1",
+          "user_profile_id": "1"
+        }
+      ],
+      "UserProfile": {
+        "address": "Pri Suchom mlyne 6",
+        "business_register": "Obchodný register Okresného súdu Bratislava I, oddiel: Sro, vložka č. 81403/B",
+        "city": "Bratislava - mestská časť Staré Mesto",
+        "company_name": "SuperFaktura, s.r.o.",
+        "company_type": "ltd",
+        "country_id": "191",
+        "dic": "2023513470",
+        "ic_dph": "SK2023513470",
+        "ico": "46655034",
+        "id": "1",
+        "modified": "2050-01-01 23:59:59",
+        "phone": "",
+        "tax_payer": "1",
+        "user_id": "1",
+        "web": "",
+        "zip": "811 04"
+      }
+    }
+  },
+  "error": 0,
+  "error_message": ""
+}
